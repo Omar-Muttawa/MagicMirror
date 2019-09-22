@@ -56,6 +56,20 @@ var config = {
 				appid: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
+		{
+			module: 	'MMM-UKLiveBusStopInfo',
+			position: 	'bottom_left',
+			header:		'Departures',			//Optional - delete this line to turn OFF the header completely
+			config: {
+					atcocode: 		'490013096W', 		// ATCO code for specific bus stop
+					app_id: 		'6f06b059', 				// TransportAPI App ID
+					app_key: 		'dc0afd923cba38e76bdb83bd953d1a4e', 	            // TransportAPI App Key
+					limit: 			5, 					// Optional - Maximum results to display.
+			nextBuses: 		'no',              	// Optional - Use expensive RealTime info from NextBuses
+			showRealTime: 	false,          	// Optional - show realtime departure info
+			showDelay: 		false              	// Optional - show delay in minutes based on Real Time info vs Time table
+			}
+		},
 	]
 
 };
