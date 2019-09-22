@@ -80,6 +80,15 @@ var config = {
 			}
 		},
 		{
+			module: 'MMM-GoogleCast',
+			position: "bottom_left",
+			classes: "default everyone",
+			header: "Google Cast",
+			config: {
+				device: "54f1a1ef-fc19-8d00-2ab4-ce44b92d8a80",
+			}
+		},
+		{
 		  module: "MMM-MyScoreboard",
 		  position: "top_right",
 		  classes: "default everyone",
