@@ -58,7 +58,7 @@ var config = {
 		},
 		{
 			module: 	'MMM-UKLiveBusStopInfo',
-			position: 	'bottom_left',
+			position: 	'bottom_right',
 			header:		'Departures',			//Optional - delete this line to turn OFF the header completely
 			config: {
 					atcocode: 		'490013096W', 		// ATCO code for specific bus stop
