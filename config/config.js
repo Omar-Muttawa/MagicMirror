@@ -57,9 +57,18 @@ var config = {
 			}
 		},
 		{
+			module: 'MMM-BackgroundSlideshow',
+			position: 'fullscreen_below',
+			config: {
+				imagePaths: ['modules/MMM-BackgroundSlideshow/exampleImages/'],
+				transitionImages: true,
+				randomizeImageOrder: true
+			}
+		},
+		{
 			module: 	'MMM-UKLiveBusStopInfo',
 			position: 	'bottom_right',
-			header:		'Departures',			//Optional - delete this line to turn OFF the header completely
+			header:		'Cromwell Hospital',			//Optional - delete this line to turn OFF the header completely
 			config: {
 					atcocode: 		'490013096W', 		// ATCO code for specific bus stop
 					app_id: 		'6f06b059', 				// TransportAPI App ID
