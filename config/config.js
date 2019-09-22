@@ -78,7 +78,7 @@ var config = {
 		  config: {
 		    showLeagueSeparators: true,
 		    colored: true,
-		    viewStyle: "mediumLogos",
+		    viewStyle: "oneLineWithLogos",
 		    sports: [
 		      {
 		        league: "ENG_PREMIERE_LEAGUE",
