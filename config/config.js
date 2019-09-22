@@ -65,9 +65,9 @@ var config = {
 					app_id: 		'6f06b059', 				// TransportAPI App ID
 					app_key: 		'dc0afd923cba38e76bdb83bd953d1a4e', 	            // TransportAPI App Key
 					limit: 			5, 					// Optional - Maximum results to display.
-			nextBuses: 		'no',              	// Optional - Use expensive RealTime info from NextBuses
-			showRealTime: 	false,          	// Optional - show realtime departure info
-			showDelay: 		false              	// Optional - show delay in minutes based on Real Time info vs Time table
+			nextBuses: 		'yes',              	// Optional - Use expensive RealTime info from NextBuses
+			showRealTime: 	true,          	// Optional - show realtime departure info
+			showDelay: 		true              	// Optional - show delay in minutes based on Real Time info vs Time table
 			}
 		},
 	]
