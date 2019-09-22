@@ -70,6 +70,30 @@ var config = {
 			showDelay: 		true              	// Optional - show delay in minutes based on Real Time info vs Time table
 			}
 		},
+		{
+		  module: "MMM-MyScoreboard",
+		  position: "top_right",
+		  classes: "default everyone",
+		  header: "My Scoreboard",
+		  config: {
+		    showLeagueSeparators: true,
+		    colored: true,
+		    viewStyle: "mediumLogos",
+		    sports: [
+		      {
+		        league: "ENG_PREMIERE_LEAGUE",
+		      },
+					{
+						league: "UEFA_CHAMPIONS",
+					},
+					{
+						league: "UEFA_EUROPA ",
+						teams: ["MUN"]
+					},
+		    ]
+  		}
+	},
+
 	]
 
 };
