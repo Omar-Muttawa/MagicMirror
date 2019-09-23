@@ -56,14 +56,7 @@ var config = {
 	        stops: [
 	            {
 	                naptanId: "940GZZLUECT",
-									direction: "inbound",
-									lineId: "district"
 	            },
-							{
-									naptanId: "940GZZLUECT",
-									direction: "outbound",
-									lineId: "district"
-							}
 	        ],
 	        timeOffset: 300,
 	        animationSpeed: 1000,
