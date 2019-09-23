@@ -84,30 +84,30 @@ var config = {
         limit: 5,
     }
 		},
-		{
-			module: 	'MMM-UKLiveBusStopInfo',
-			position: 	'bottom_right',
-			header:		'Cromwell Hospital',			//Optional - delete this line to turn OFF the header completely
-			config: {
-					atcocode: 		'490013096W', 		// ATCO code for specific bus stop
-					app_id: 		'6f06b059', 				// TransportAPI App ID
-					app_key: 		'dc0afd923cba38e76bdb83bd953d1a4e', 	            // TransportAPI App Key
-					limit: 			5, 					// Optional - Maximum results to display.
-			nextBuses: 		'yes',              	// Optional - Use expensive RealTime info from NextBuses
-			showRealTime: 	true,          	// Optional - show realtime departure info
-			showDelay: 		true              	// Optional - show delay in minutes based on Real Time info vs Time table
-			}
-		},
-		{
-			module: 'MMM-GoogleCast',
-			position: "bottom_left",
-			classes: "default everyone",
-			header: "Google Cast",
-			config: {
-				device: "54f1a1ef-fc19-8d00-2ab4-ce44b92d8a80",
-				hide: "true"
-			}
-		},
+		// {
+		// 	module: 	'MMM-UKLiveBusStopInfo',
+		// 	position: 	'bottom_right',
+		// 	header:		'Cromwell Hospital',			//Optional - delete this line to turn OFF the header completely
+		// 	config: {
+		// 			atcocode: 		'490013096W', 		// ATCO code for specific bus stop
+		// 			app_id: 		'6f06b059', 				// TransportAPI App ID
+		// 			app_key: 		'dc0afd923cba38e76bdb83bd953d1a4e', 	            // TransportAPI App Key
+		// 			limit: 			5, 					// Optional - Maximum results to display.
+		// 	nextBuses: 		'yes',              	// Optional - Use expensive RealTime info from NextBuses
+		// 	showRealTime: 	true,          	// Optional - show realtime departure info
+		// 	showDelay: 		true              	// Optional - show delay in minutes based on Real Time info vs Time table
+		// 	}
+		// },
+		// {
+		// 	module: 'MMM-GoogleCast',
+		// 	position: "bottom_left",
+		// 	classes: "default everyone",
+		// 	header: "Google Cast",
+		// 	config: {
+		// 		device: "54f1a1ef-fc19-8d00-2ab4-ce44b92d8a80",
+		// 		hide: "true"
+		// 	}
+		// },
 		{
 		  module: "MMM-MyScoreboard",
 		  position: "top_right",
