@@ -66,6 +66,25 @@ var config = {
 			}
 		},
 		{
+    module: 'MMM-TFL-Stops',
+    position: 'top_right',
+    header: 'Departures',
+    config: {
+        appId: "7ceeef13",
+        appKey: "41cc18035a20804ea311cdf5e070b88c",
+        stops: [
+            {
+                naptanId: "940GZZLUECT",
+            }
+        ],
+        timeOffset: 300,
+        animationSpeed: 1000,
+        fade: true,
+        fadePoint: 0.25,
+        limit: 5,
+    }
+		},
+		{
 			module: 	'MMM-UKLiveBusStopInfo',
 			position: 	'bottom_right',
 			header:		'Cromwell Hospital',			//Optional - delete this line to turn OFF the header completely
