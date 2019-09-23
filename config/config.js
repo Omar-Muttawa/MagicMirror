@@ -86,6 +86,7 @@ var config = {
 			header: "Google Cast",
 			config: {
 				device: "54f1a1ef-fc19-8d00-2ab4-ce44b92d8a80",
+				hide: "true"
 			}
 		},
 		{
