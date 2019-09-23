@@ -90,29 +90,29 @@ var config = {
 		// 		hide: "true"
 		// 	}
 		// },
-	// 	{
-	// 	  module: "MMM-MyScoreboard",
-	// 	  position: "top_right",
-	// 	  classes: "default everyone",
-	// 	  header: "My Scoreboard",
-	// 	  config: {
-	// 	    showLeagueSeparators: true,
-	// 	    colored: true,
-	// 	    viewStyle: "oneLineWithLogos",
-	// 	    sports: [
-	// 	      {
-	// 	        league: "ENG_PREMIERE_LEAGUE",
-	// 	      },
-	// 				{
-	// 					league: "UEFA_CHAMPIONS",
-	// 				},
-	// 				{
-	// 					league: "UEFA_EUROPA ",
-	// 					teams: ["MUN"]
-	// 				},
-	// 	    ]
-  // 		}
-	// },
+		{
+		  module: "MMM-MyScoreboard",
+		  position: "bottom_right",
+		  classes: "default everyone",
+		  header: "My Scoreboard",
+		  config: {
+		    showLeagueSeparators: true,
+		    colored: true,
+		    viewStyle: "oneLineWithLogos",
+		    sports: [
+		      {
+		        league: "ENG_PREMIERE_LEAGUE",
+		      },
+					{
+						league: "UEFA_CHAMPIONS",
+					},
+					{
+						league: "UEFA_EUROPA ",
+						teams: ["MUN"]
+					},
+		    ]
+  		}
+	},
 
 	]
 
