@@ -38,25 +38,6 @@ var config = {
 			position: "top_left"
 		},
 		{
-			module: "currentweather",
-			position: "top_right",
-			config: {
-				location: "London",
-				locationID: "2643743",  //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "1cc0d93c8769006704540eeba3e0ec5c"
-			}
-		},
-		{
-			module: "weatherforecast",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				location: "London",
-				locationID: "2643743",  //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "1cc0d93c8769006704540eeba3e0ec5c"
-			}
-		},
-		{
 			module: 'MMM-BackgroundSlideshow',
 			position: 'fullscreen_below',
 			config: {
@@ -66,38 +47,38 @@ var config = {
 			}
 		},
 		{
-    module: 'MMM-TFL-Stops',
-    position: 'top_right',
-    header: 'Departures',
-    config: {
-        appId: "7ceeef13",
-        appKey: "41cc18035a20804ea311cdf5e070b88c",
-        stops: [
-            {
-                naptanId: "940GZZLUECT",
-            }
-        ],
-        timeOffset: 300,
-        animationSpeed: 1000,
-        fade: true,
-        fadePoint: 0.25,
-        limit: 5,
+	    module: 'MMM-TFL-Stops',
+	    position: 'top_right',
+	    header: 'Departures',
+	    config: {
+	        appId: "7ceeef13",
+	        appKey: "41cc18035a20804ea311cdf5e070b88c",
+	        stops: [
+	            {
+	                naptanId: "940GZZLUECT",
+	            }
+	        ],
+	        timeOffset: 300,
+	        animationSpeed: 1000,
+	        fade: true,
+	        fadePoint: 0.25,
+	        limit: 5,
     }
 		},
-		// {
-		// 	module: 	'MMM-UKLiveBusStopInfo',
-		// 	position: 	'bottom_right',
-		// 	header:		'Cromwell Hospital',			//Optional - delete this line to turn OFF the header completely
-		// 	config: {
-		// 			atcocode: 		'490013096W', 		// ATCO code for specific bus stop
-		// 			app_id: 		'6f06b059', 				// TransportAPI App ID
-		// 			app_key: 		'dc0afd923cba38e76bdb83bd953d1a4e', 	            // TransportAPI App Key
-		// 			limit: 			5, 					// Optional - Maximum results to display.
-		// 	nextBuses: 		'yes',              	// Optional - Use expensive RealTime info from NextBuses
-		// 	showRealTime: 	true,          	// Optional - show realtime departure info
-		// 	showDelay: 		true              	// Optional - show delay in minutes based on Real Time info vs Time table
-		// 	}
-		// },
+		{
+			module: 	'MMM-UKLiveBusStopInfo',
+			position: 	'bottom_right',
+			header:		'Cromwell Hospital',			//Optional - delete this line to turn OFF the header completely
+			config: {
+					atcocode: 		'490013096W', 		// ATCO code for specific bus stop
+					app_id: 		'6f06b059', 				// TransportAPI App ID
+					app_key: 		'dc0afd923cba38e76bdb83bd953d1a4e', 	            // TransportAPI App Key
+					limit: 			5, 					// Optional - Maximum results to display.
+			nextBuses: 		'yes',              	// Optional - Use expensive RealTime info from NextBuses
+			showRealTime: 	true,          	// Optional - show realtime departure info
+			showDelay: 		true              	// Optional - show delay in minutes based on Real Time info vs Time table
+			}
+		},
 		// {
 		// 	module: 'MMM-GoogleCast',
 		// 	position: "bottom_left",
