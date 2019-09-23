@@ -39,27 +39,27 @@ body {
 }
 
 .xsmall {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.small {
   font-size: 15px;
   line-height: 20px;
 }
 
-.small {
-  font-size: 20px;
-  line-height: 25px;
-}
-
 .medium {
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .large {
-  font-size: 65px;
-  line-height: 65px;
+  font-size: 60px;
+  line-height: 60px;
 }
 
 .xlarge {
-  font-size: 75px;
+  font-size: 7px;
   line-height: 75px;
   letter-spacing: -3px;
 }
@@ -97,11 +97,11 @@ header {
   font-size: 15px;
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #fff;
   line-height: 15px;
   padding-bottom: 5px;
   margin-bottom: 10px;
-  color: #999;
+  color: #fff;
 }
 
 sup {
