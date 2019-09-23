@@ -63,7 +63,7 @@ var config = {
 	        fade: false,
 	        fadePoint: 0.25,
 	        limit: 5,
-    }
+    	}
 		},
 		{
 			module: 	'MMM-UKLiveBusStopInfo',
@@ -90,8 +90,106 @@ var config = {
 		// 	}
 		// },
 		{
+			module: "MMM-Football-Fixtures",
+			position: "bottom_left",
+			config: {
+        // both teams must be in the 'teams' list to show game
+				leagues: {
+
+					"La Liga Santander": "PD"
+				},
+        // one of the teams must be in the 'teams' list to show the game
+        preferredLeagues: {
+					"Champions League": "CL",
+					"Premier League": "PL",
+        },
+				leaguesShowAllGames: {
+					// "World Cup": "WC"
+				},
+				teams: [
+					// England
+  					// Prem
+  					"Manchester City FC",
+  					"Tottenham Hotspur FC",
+  					"Chelsea FC",
+  					"Manchester United FC",
+  					"Arsenal FC",
+  					"Liverpool FC",
+					// Italy
+					"Juventus Turin",
+					// France
+					"Paris Saint-Germain",
+          "Paris Saint-Germain FC",
+					"AS Monaco FC",
+					"Olympique de Marseille",
+					"Olympique Lyonnais",
+					// Spain
+					"FC Barcelona",
+					"Real Madrid CF",
+
+				],
+				teamBadges: {
+          'Arsenal FC': 'http://aux.iconspalace.com/uploads/arsenal-logo-icon-256.png',
+          'Fulham FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/144.png',
+          'Newcastle United FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/13.png',
+          'Manchester United FC': 'http://aux2.iconspalace.com/uploads/manchester-united-logo-icon-256.png',
+          'Cardiff City FC': 'https://i.pinimg.com/originals/9c/4f/ab/9c4fab30d606869d168c16d4a2e4d26b.png',
+          'Tottenham Hotspur FC': 'http://aux2.iconspalace.com/uploads/tottenham-hotspur-logo-icon-256.png',
+          'Huddersfield Town AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1939.png',
+          'Watford FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1795.png',
+          'Brighton & Hove Albion FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1808.png',
+          'Manchester City FC': 'https://futhead.cursecdn.com/static/img/17/clubs/10.png',
+          'West Ham United FC': 'http://aux2.iconspalace.com/uploads/west-ham-united-logo-icon-256.png',
+          'Everton FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/7.png',
+          'Chelsea FC': 'http://aux.iconspalace.com/uploads/chelsea-logo-icon-256.png',
+          'Wolverhampton Wanderers FC': 'http://aux2.iconspalace.com/uploads/wolverhampton-wanderers-logo-icon-256.png',
+          'Southampton FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/17.png',
+          'Liverpool FC': 'http://aux.iconspalace.com/uploads/liverpool-fc-logo-icon-256.png',
+          'Watford FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1795.png',
+          'Burnley FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1796.png',
+          'AFC Bournemouth': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1943.png',
+          'Leicester City FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/95.png',
+          'Crystal Palace FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1799.png',
+          'Sunderland AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/106.png',
+          'Stoke City FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1806.png',
+          'Swansea City AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1960.png',
+          'Hull City': 'https://futhead.cursecdn.com/static/img/17/items/badges/6000211.png',
+          'Leeds United AFC': 'http://futhead.cursecdn.com/static/img/14/clubs/8.png',
+          'AC Milan': 'https://futhead.cursecdn.com/static/img/15/clubs_large/47.png',
+          'AS Roma': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/11/logo.png',
+          'Juventus FC': 'http://aux.iconspalace.com/uploads/juventus-logo-icon-256.png',
+          'SSC Napoli': 'https://dbcdnk728du6i.cloudfront.net/teams/logos/128x128/2446-napoli.png',
+					'SS Lazio': 'https://futhead.cursecdn.com/static/img/14/clubs/46.png',
+					'FC Internazionale Milano': 'https://futhead.cursecdn.com/static/img/17/clubs/44.png',
+          'Paris Saint-Germain': 'https://futhead.cursecdn.com/static/img/17/clubs/73.png',
+          'Paris Saint-Germain FC': 'https://futhead.cursecdn.com/static/img/17/clubs/73.png',
+					'AS Monaco FC': 'http://aux.iconspalace.com/uploads/as-monaco-logo-icon-256.png',
+					'Olympique de Marseille': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/85/logo.png',
+					'Olympique Lyonnais': 'http://aux2.iconspalace.com/uploads/olympique-lyonnais-logo-icon-256.png',
+          'FC Barcelona': 'http://aux.iconspalace.com/uploads/fc-barcelona-logo-icon-256.png',
+					'Real Madrid CF': 'http://aux2.iconspalace.com/uploads/real-madrid-logo-icon-256.png',
+					'Sevilla FC': 'http://aux2.iconspalace.com/uploads/sevilla-logo-icon-256.png',
+					'Valencia CF': 'http://aux2.iconspalace.com/uploads/valencia-logo-icon-256.png',
+					'Club Atlético de Madrid': 'https://pesstatsdatabase.com/PSD/PSD/Images/Clubs/Spain/Club-Atletico-de-Madrid.png',
+          'FC Bayern München': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/80/logo.png',
+					'Borussia Dortmund': 'http://aux.iconspalace.com/uploads/borussia-dortmund-logo-icon-256.png',
+          'FC Schalke 04': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/120/logo.png',
+          'RB Leipzig': 'http://en.fodb.net/img/club/Germany/100/RB-Leipzig.png',
+          'PSV': 'http://aux2.iconspalace.com/uploads/psv-eindhoven-logo-icon-256.png',
+          'BSC Young Boys': 'https://futhead.cursecdn.com/static/img/16/clubs/900.png',
+          'Sport Lisboa e Benfica': 'http://www.futbol24.com/upload/team/Portugal/SL-Benfica-R.png',
+          'FC Porto': 'http://aux.iconspalace.com/uploads/fc-porto-logo-icon-256.png',
+          'FK Crvena Zvezda': 'http://cdn.staticneo.com/w/pes/1/19/Redstar.png'
+				},
+				apiKey: "47df154b6ab44fd9aff679c0eca9e6c2",
+				displayMax: 22,
+				daysAhead: 7,
+        daysBehind: 2
+			}
+		},
+		{
 		  module: "MMM-MyScoreboard",
-		  position: "bottom_right",
+		  position: "bottom_left",
 		  classes: "default everyone",
 		  header: "My Scoreboard",
 		  config: {
