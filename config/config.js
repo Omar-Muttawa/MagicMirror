@@ -55,7 +55,7 @@ var config = {
 	        appKey: "41cc18035a20804ea311cdf5e070b88c",
 	        stops: [
 	            {
-	                naptanId: "940GZZLUECT",
+	                naptanId: "940GZZLUECT"
 	            }
 	        ],
 	        timeOffset: 300,
