@@ -49,18 +49,19 @@ var config = {
 		{
 	    module: 'MMM-TFL-Stops',
 	    position: 'top_right',
-	    header: 'Departures',
+	    header: 'Earls Court',
 	    config: {
 	        appId: "7ceeef13",
 	        appKey: "41cc18035a20804ea311cdf5e070b88c",
 	        stops: [
 	            {
-	                naptanId: "940GZZLUECT"
+	                naptanId: "940GZZLUECT",
+									direction: "eastbound"
 	            }
 	        ],
 	        timeOffset: 300,
 	        animationSpeed: 1000,
-	        fade: true,
+	        fade: false,
 	        fadePoint: 0.25,
 	        limit: 5,
     }
