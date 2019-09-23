@@ -57,12 +57,10 @@ var config = {
 	            {
 	                naptanId: "940GZZLUECT",
 									direction: "inbound",
-									routeName: "district"
 	            },
 							{
 									naptanId: "940GZZLUECT",
 									direction: "outbound",
-									routeName: "district"
 							},
 	        ],
 	        timeOffset: 300,
