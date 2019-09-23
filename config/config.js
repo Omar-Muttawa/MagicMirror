@@ -56,7 +56,7 @@ var config = {
 	        stops: [
 	            {
 	                naptanId: "940GZZLUECT",
-									direction: "inbound"
+									direction: "outbound"
 	            }
 	        ],
 	        timeOffset: 300,
