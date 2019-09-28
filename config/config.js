@@ -47,23 +47,32 @@ var config = {
 			}
 		},
 		{
-	    module: 'MMM-TFL-Stops',
-	    position: 'top_right',
-	    header: 'Earls Court',
-	    config: {
-	        appId: "7ceeef13",
-	        appKey: "41cc18035a20804ea311cdf5e070b88c",
-	        stops: [
-	            {
-	                naptanId: "940GZZLUECT",
-	            },
-	        ],
-	        timeOffset: 300,
-	        animationSpeed: 1000,
-	        fade: false,
-	        fadePoint: 0.25,
-	        limit: 5,
-    	}
+	  module: 'MMM-LocalTransport',
+	  header: 'to Victoriy Coach Station',
+	  position: 'top_right',
+	  config: {
+	    api_key: 'AIzaSyCJRGDBuMrXD-3gEhxFmiFRq1QeCkC8Jic',
+	    origin: '159 Cromwell Road',
+	    destination: 'UCL Main Campus',
+	    maximumEntries: 4,
+	    maxWalkTime: 25,
+	    displayWalkType: 'full',
+	    maxModuleWidth: 400
+	  	}
+		},
+		{
+		module: 'MMM-LocalTransport',
+		header: 'to Victoriy Coach Station',
+		position: 'top_right',
+		config: {
+			api_key: 'AIzaSyCJRGDBuMrXD-3gEhxFmiFRq1QeCkC8Jic',
+			origin: '159 Cromwell Road',
+			destination: 'Imperial College ThinkSpace',
+			maximumEntries: 4,
+			maxWalkTime: 25,
+			displayWalkType: 'full',
+			maxModuleWidth: 400
+			}
 		},
 		{
 			module: 	'MMM-UKLiveBusStopInfo',
@@ -182,7 +191,7 @@ var config = {
           'FK Crvena Zvezda': 'http://cdn.staticneo.com/w/pes/1/19/Redstar.png'
 				},
 				apiKey: "47df154b6ab44fd9aff679c0eca9e6c2",
-				displayMax: 22,
+				displayMax: 10,
 				daysAhead: 7,
         daysBehind: 2
 			}
