@@ -131,9 +131,6 @@ var config = {
 					// France
 					"Paris Saint-Germain",
           "Paris Saint-Germain FC",
-					"AS Monaco FC",
-					"Olympique de Marseille",
-					"Olympique Lyonnais",
 					// Spain
 					"FC Barcelona",
 					"Real Madrid CF",
@@ -193,7 +190,7 @@ var config = {
           'FK Crvena Zvezda': 'http://cdn.staticneo.com/w/pes/1/19/Redstar.png'
 				},
 				apiKey: "47df154b6ab44fd9aff679c0eca9e6c2",
-				displayMax: 8,
+				displayMax: 7,
 				daysAhead: 7,
         daysBehind: 2
 			}
