@@ -54,11 +54,12 @@ var config = {
 	    api_key: 'AIzaSyCJRGDBuMrXD-3gEhxFmiFRq1QeCkC8Jic',
 	    origin: '159 Cromwell Road',
 	    destination: 'UCL Main Campus',
-	    maximumEntries: 3,
+	    maximumEntries: 2,
 	    maxWalkTime: 25,
 	    displayWalkType: 'full',
-	    maxModuleWidth: 500
-	  	}
+	    maxModuleWidth: 400,
+			fade: false
+		}
 		},
 		{
 		module: 'MMM-LocalTransport',
@@ -68,10 +69,11 @@ var config = {
 			api_key: 'AIzaSyCJRGDBuMrXD-3gEhxFmiFRq1QeCkC8Jic',
 			origin: '159 Cromwell Road',
 			destination: 'Imperial College ThinkSpace',
-			maximumEntries: 3,
+			maximumEntries: 2,
 			maxWalkTime: 25,
 			displayWalkType: 'full',
-			maxModuleWidth: 500
+			maxModuleWidth: 400,
+			fade: false
 			}
 		},
 		{
