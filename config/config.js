@@ -48,30 +48,30 @@ var config = {
 		},
 		{
 	  module: 'MMM-LocalTransport',
-	  header: 'to Victoriy Coach Station',
+	  header: 'to UCL Main Campus',
 	  position: 'top_right',
 	  config: {
 	    api_key: 'AIzaSyCJRGDBuMrXD-3gEhxFmiFRq1QeCkC8Jic',
 	    origin: '159 Cromwell Road',
 	    destination: 'UCL Main Campus',
-	    maximumEntries: 4,
+	    maximumEntries: 3,
 	    maxWalkTime: 25,
 	    displayWalkType: 'full',
-	    maxModuleWidth: 400
+	    maxModuleWidth: 200
 	  	}
 		},
 		{
 		module: 'MMM-LocalTransport',
-		header: 'to Victoriy Coach Station',
+		header: 'to Imperial College ThinkSpace',
 		position: 'top_right',
 		config: {
 			api_key: 'AIzaSyCJRGDBuMrXD-3gEhxFmiFRq1QeCkC8Jic',
 			origin: '159 Cromwell Road',
 			destination: 'Imperial College ThinkSpace',
-			maximumEntries: 4,
+			maximumEntries: 3,
 			maxWalkTime: 25,
 			displayWalkType: 'full',
-			maxModuleWidth: 400
+			maxModuleWidth: 200
 			}
 		},
 		{
@@ -196,29 +196,29 @@ var config = {
         daysBehind: 2
 			}
 		},
-		{
-		  module: "MMM-MyScoreboard",
-		  position: "bottom_left",
-		  classes: "default everyone",
-		  header: "My Scoreboard",
-		  config: {
-		    showLeagueSeparators: true,
-		    colored: true,
-		    viewStyle: "oneLineWithLogos",
-		    sports: [
-		      {
-		        league: "ENG_PREMIERE_LEAGUE",
-		      },
-					{
-						league: "UEFA_CHAMPIONS",
-					},
-					{
-						league: "UEFA_EUROPA ",
-						teams: ["MUN"]
-					},
-		    ]
-  		}
-	},
+	// 	{
+	// 	  module: "MMM-MyScoreboard",
+	// 	  position: "bottom_left",
+	// 	  classes: "default everyone",
+	// 	  header: "My Scoreboard",
+	// 	  config: {
+	// 	    showLeagueSeparators: true,
+	// 	    colored: true,
+	// 	    viewStyle: "oneLineWithLogos",
+	// 	    sports: [
+	// 	      {
+	// 	        league: "ENG_PREMIERE_LEAGUE",
+	// 	      },
+	// 				{
+	// 					league: "UEFA_CHAMPIONS",
+	// 				},
+	// 				{
+	// 					league: "UEFA_EUROPA ",
+	// 					teams: ["MUN"]
+	// 				},
+	// 	    ]
+  // 		}
+	// },
 
 	]
 
