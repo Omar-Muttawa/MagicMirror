@@ -127,10 +127,7 @@ var config = {
   					"Arsenal FC",
   					"Liverpool FC",
 					// Italy
-					"Juventus Turin",
-					// France
-					"Paris Saint-Germain",
-          "Paris Saint-Germain FC",
+
 					// Spain
 					"FC Barcelona",
 					"Real Madrid CF",
@@ -190,7 +187,7 @@ var config = {
           'FK Crvena Zvezda': 'http://cdn.staticneo.com/w/pes/1/19/Redstar.png'
 				},
 				apiKey: "47df154b6ab44fd9aff679c0eca9e6c2",
-				displayMax: 7,
+				displayMax: 6,
 				daysAhead: 7,
         daysBehind: 2
 			}
