@@ -76,20 +76,20 @@ var config = {
 			fade: false
 			}
 		},
-		{
-			module: 	'MMM-UKLiveBusStopInfo',
-			position: 	'bottom_right',
-			header:		'Cromwell Hospital',			//Optional - delete this line to turn OFF the header completely
-			config: {
-					atcocode: 		'490013096W', 		// ATCO code for specific bus stop
-					app_id: 		'6f06b059', 				// TransportAPI App ID
-					app_key: 		'dc0afd923cba38e76bdb83bd953d1a4e', 	            // TransportAPI App Key
-					limit: 			5, 					// Optional - Maximum results to display.
-			nextBuses: 		'yes',              	// Optional - Use expensive RealTime info from NextBuses
-			showRealTime: 	true,          	// Optional - show realtime departure info
-			showDelay: 		true              	// Optional - show delay in minutes based on Real Time info vs Time table
-			}
-		},
+		// {
+		// 	module: 	'MMM-UKLiveBusStopInfo',
+		// 	position: 	'bottom_right',
+		// 	header:		'Cromwell Hospital',			//Optional - delete this line to turn OFF the header completely
+		// 	config: {
+		// 			atcocode: 		'490013096W', 		// ATCO code for specific bus stop
+		// 			app_id: 		'6f06b059', 				// TransportAPI App ID
+		// 			app_key: 		'dc0afd923cba38e76bdb83bd953d1a4e', 	            // TransportAPI App Key
+		// 			limit: 			5, 					// Optional - Maximum results to display.
+		// 	nextBuses: 		'yes',              	// Optional - Use expensive RealTime info from NextBuses
+		// 	showRealTime: 	true,          	// Optional - show realtime departure info
+		// 	showDelay: 		true              	// Optional - show delay in minutes based on Real Time info vs Time table
+		// 	}
+		// },
 		// {
 		// 	module: 'MMM-GoogleCast',
 		// 	position: "bottom_left",
