@@ -193,7 +193,7 @@ var config = {
           'FK Crvena Zvezda': 'http://cdn.staticneo.com/w/pes/1/19/Redstar.png'
 				},
 				apiKey: "47df154b6ab44fd9aff679c0eca9e6c2",
-				displayMax: 10,
+				displayMax: 8,
 				daysAhead: 7,
         daysBehind: 2
 			}
