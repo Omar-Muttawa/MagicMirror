@@ -57,7 +57,7 @@ var config = {
 	    maximumEntries: 3,
 	    maxWalkTime: 25,
 	    displayWalkType: 'full',
-	    maxModuleWidth: 200
+	    maxModuleWidth: 500
 	  	}
 		},
 		{
@@ -71,7 +71,7 @@ var config = {
 			maximumEntries: 3,
 			maxWalkTime: 25,
 			displayWalkType: 'full',
-			maxModuleWidth: 200
+			maxModuleWidth: 500
 			}
 		},
 		{
